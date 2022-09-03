@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&display=swap');
+
+@import 'aos/dist/aos.css';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+  /* overflow: hidden; */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.mesh {
+  background-color:hsla(258,100%,24%,1);
+  background-image:
+  radial-gradient(at 44% 16%, hsla(218,95%,71%,1) 0px, transparent 50%),
+  radial-gradient(at 47% 61%, hsla(280,62%,64%,1) 0px, transparent 50%),
+  radial-gradient(at 26% 16%, hsla(161,97%,66%,1) 0px, transparent 50%),
+  radial-gradient(at 33% 88%, hsla(189,66%,71%,1) 0px, transparent 50%),
+  radial-gradient(at 86% 32%, hsla(257,94%,61%,1) 0px, transparent 50%);
+}
