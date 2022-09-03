@@ -80,7 +80,7 @@ export const Hero = () => {
     <SectionTemplate id="hero">
       <div className="min-h-screen w-full opacity-40 absolute flex flex-col">
         <div className="my-auto flex flex-col">
-          {[ ...Array(20) ].map(() => (
+          {[ ...Array(15) ].map(() => (
             <h1 className="text-3xl font-bold text-gray-200 mx-auto">
               Non Fungible
               {' '}
